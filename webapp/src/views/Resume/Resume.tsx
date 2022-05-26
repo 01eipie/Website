@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import ApplicationBar from '../../components/ApplicationBar';
 import NavigationDrawer from '../../components/NavigationDrawer';
-import resumePdf from './resume.pdf';
+// import resumePdf from './resume.pdf';
 
 const Resume : FC = () =>
 {
@@ -9,7 +9,7 @@ const Resume : FC = () =>
     <div>
       <ApplicationBar />
       <NavigationDrawer />
-      <iframe src={resumePdf} style={{position: "absolute"}} width="100%" height="100%" title="Resume"/>
+      {/* <iframe src={resumePdf} style={{position: "absolute"}} width="100%" height="100%" title="Resume"/> */}
     </div>
   return resume;
 }
